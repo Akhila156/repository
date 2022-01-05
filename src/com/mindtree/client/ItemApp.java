@@ -11,6 +11,7 @@ public class ItemApp {
 	public static void main(String[] args) {
 		// asking user for number of items in bag
 		System.out.println("Enter number of items you required in bag");
+		System.out.println("Hi i am akhila");
 		int numberOfItems = scan.nextInt();
 		Item[] items = new Item[numberOfItems];
 		boolean isContinue = true;
